@@ -1,0 +1,226 @@
+{
+  "firstName": "Sanduni",
+  "lastName": "Senanayake",
+  "fullName": "Sanduni Senanayake",
+  "email": "srsmsone@gmail.com",
+  "location": "Colombo, Sri Lanka",
+  "bio": "I am a software engineer with a passion for building scalable and efficient systems.",
+  "keywords": [
+    "software engineer",
+    "software developer",
+    "full stack engineer",
+    "full stack developer",
+    "front-end developer",
+    "back-end developer",
+    "react developer",
+    "typescript developer",
+    "node.js developer",
+    "javascript developer",
+    "web applications",
+    "web developer",
+    "sanduni",
+    "senanayake",
+    "mhansi"
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/mhansi",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/mhansi",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/sanduni.madhuhansi.3",
+      "icon": "facebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/mhansi_senanayake",
+      "icon": "instagram"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sabaragamuwa University of Sri Lanka",
+      "programme": "BSc (Hons) in Information Systems",
+      "startYear": "2017",
+      "endYear": "2022",
+      "result": "3.1 GPA"
+    },
+    {
+      "institution": "Java Institute of Sri Lanka",
+      "programme": "Oracle Certified Associated Java Programmer",
+      "startYear": "2017",
+      "endYear": "2018",
+      "result": null
+    },
+    {
+      "institution": "President's College, Minuwangoda",
+      "programme": "GCE Advanced Level (Mathematics Stream)",
+      "startYear": "2013",
+      "endYear": "2015",
+      "result": "B, B, C"
+    },
+    {
+      "institution": "Kuswala Junior School, Raddoluwa",
+      "programme": "GCE Ordinary Level",
+      "startYear": "2001",
+      "endYear": "2012",
+      "result": "4As, 4Bs, C"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Eyepax IT Consulting",
+      "companyUrl": "https://eyepax.com",
+      "companyLocation": "Colombo, Sri Lanka",
+      "employmentType": "Full-time",
+      "positions": [
+        {
+          "title": "Software Engineer",
+          "startMonth": "April 2023",
+          "endMonth": "Present"
+        }
+      ]
+    },
+    {
+      "company": "Mitra Innovation",
+      "companyUrl": "https://mitrai.com",
+      "companyLocation": "Colombo, Sri Lanka",
+      "employmentType": "Full-time",
+      "positions": [
+        {
+          "title": "Associate Software Engineer",
+          "startMonth": "November 2021",
+          "endMonth": "March 2023"
+        }
+      ]
+    },
+    {
+      "company": "IT Domain (startup)",
+      "companyUrl": "https://itdomain.com.au",
+      "companyLocation": "Perth, Australia",
+      "employmentType": "Part-time",
+      "positions": [
+        {
+          "title": "Software Engineer (Front-end)",
+          "startMonth": "May 2021",
+          "endMonth": "October 2021"
+        }
+      ]
+    },
+    {
+      "company": "DMS Software Engineering",
+      "companyUrl": "https://dmsswe.com",
+      "companyLocation": "Colombo, Sri Lanka",
+      "employmentType": "Internship",
+      "positions": [
+        {
+          "title": "Software Engineer (Intern)",
+          "startMonth": "June 2020",
+          "endMonth": "December 2020"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Sonder",
+      "url": "https://sondermedia.com/",
+      "company": "Eyepax IT Consulting",
+      "startMonth": "April 2023",
+      "endMonth": "Present",
+      "description": "An Australian company partnered with Eyepax to enhance their web based marketing campaigns management platform.",
+      "role": [
+        "As a full stack developer, I was responsible for developing the v2 of the application along with other feature developments.",
+        "Involved in implementing optimized and reusable frontend components, managing serverless backend code, cloud deployments and implementing unit tests.",
+        "Also involved in client communication for requirement gathering, agile ceremonies and live demos"
+      ],
+      "techStack": ["React", "Node JS", "TypeScript", "AWS", "Lambda", "DynamoDB", "GraphQL", "Tailwind CSS", "SASS"]
+    },
+    {
+      "name": "Sillara",
+      "url": "https://sillara-agri.com/",
+      "company": "Mitra Innovation",
+      "startMonth": "September 2022",
+      "endMonth": "March 2023",
+      "description": "A PWA e-commerce application focused on grocery items, that connect buyers, suppliers and logistic providers.",
+      "role": [
+        "As a front-end developer I was responsible for implementing front-end components and logic for new features."
+      ],
+      "techStack": ["React JS", "Redux", "JavaScript"]
+    },
+    {
+      "name": "Dygisec - Triton",
+      "url": null,
+      "company": "Mitra Innovation",
+      "startMonth": "April 2022",
+      "endMonth": "September 2022",
+      "description": "Triton allows to securely and continuously monitor organizations entire cloud infrastructure.",
+      "role": [
+        "As a back-end developer, I was responsible for implementing REST APIs and back-end logic for feature requirements."
+      ],
+      "techStack": ["Go Lang", "React JS", "Docker"]
+    },
+    {
+      "name": "Cellcard Gaming Portal",
+      "url": null,
+      "company": "Mitra Innovation",
+      "startMonth": "November 2021",
+      "endMonth": "April 2022",
+      "description": "Allow users to purchase unlimited data gaming currency items and participate tournaments.",
+      "role": [
+        "As a full stack developer, I was responsible for implementing admin dashboard and other feature development."
+      ],
+      "techStack": ["Node.js", "React", "Vue JS", "AWS"]
+    },
+    {
+      "name": "Cloud based POS System",
+      "url": null,
+      "company": "IT Domain (startup)",
+      "startMonth": "May 2021",
+      "endMonth": "October 2021",
+      "description": "A cloud based Point of Sales system.",
+      "role": ["As a front-end developer, I was responsible for implementing client features and bug fixing."],
+      "techStack": ["React JS", "TypeScript"]
+    },
+    {
+      "name": "Docubinet",
+      "url": "https://www.docubinet.com/",
+      "company": "DMS Software Engineering",
+      "startMonth": "June 2020",
+      "endMonth": "December 2020",
+      "description": "A cloud based enterprise document content management system.",
+      "role": ["As a full-stack developer (intern), I was responsible for implementing new features and bug fixing."],
+      "techStack": ["React JS", "Node JS", "JavaScript", "MongoDB"]
+    }
+  ],
+  "skills": [
+    {
+      "type": "Languages",
+      "skills": ["TypeScript", "JavaScript", "Go Lang"]
+    },
+    {
+      "type": "Front-end",
+      "skills": ["React", "Redux", "Next.js"]
+    },
+    {
+      "type": "Back-end",
+      "skills": ["Node.js", "Express"]
+    },
+    {
+      "type": "Database",
+      "skills": ["MySQL", "PostgreSQL", "DynamoDB"]
+    },
+    {
+      "type": "Cloud",
+      "skills": ["AWS"]
+    }
+  ],
+  "interests": ["Coding", "Fashion Designing", "Traveling", "Music"]
+}
