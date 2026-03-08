@@ -4,7 +4,7 @@
   "fullName": "Sanduni Senanayake",
   "email": "srsmsone@gmail.com",
   "location": "Colombo, Sri Lanka",
-  "bio": "I am a software engineer with a passion for building scalable and efficient systems.",
+  "bio": "A techie with a passion for building scalable and efficient systems.",
   "keywords": [
     "software engineer",
     "software developer",
@@ -76,6 +76,19 @@
   ],
   "experience": [
     {
+      "company": "Cookers Bulk Oil System PTY LTD",
+      "companyUrl": "https://cookers.com.au",
+      "companyLocation": "Colombo, Sri Lanka",
+      "employmentType": "Full-time",
+      "positions": [
+        {
+          "title": "Software Engineer",
+          "startMonth": "July 2025",
+          "endMonth": "Present"
+        }
+      ]
+    },
+    {
       "company": "Eyepax IT Consulting",
       "companyUrl": "https://eyepax.com",
       "companyLocation": "Colombo, Sri Lanka",
@@ -84,7 +97,7 @@
         {
           "title": "Software Engineer",
           "startMonth": "April 2023",
-          "endMonth": "Present"
+          "endMonth": "June 2025"
         }
       ]
     },
@@ -130,11 +143,25 @@
   ],
   "projects": [
     {
+      "name": "Cookers Bulk Oil System",
+      "url": "https://cookers.com.au/",
+      "company": "Cookers Bulk Oil System PTY LTD",
+      "startMonth": "July 2025",
+      "endMonth": "Present",
+      "description": "An ERP system for bulk oil management, designed to streamline operations and enhance efficiency in the Cookers Bulk Oil System PTY LTD.",
+      "role": [
+        "Performed end-to-end frontend revamp of OleoGo, an ERP system for bulk oil management, including requirements gathering, Figma-based design validation, and development using React, TypeScript, and modern styling practices.",
+        "Implemented scalable architecture with NX and optimized data handling through React Query for efficient API integration, state management, and caching.",
+        "Collaborated with backend and QA teams to ensure performance, consistency, and smooth deployments, resulting in improved UI consistency, usability, and faster delivery."
+      ],
+      "techStack": ["React", "TypeScript", "React Query", "NX Monorepo"]
+    },
+    {
       "name": "Sonder",
       "url": "https://sondermedia.com/",
       "company": "Eyepax IT Consulting",
       "startMonth": "April 2023",
-      "endMonth": "Present",
+      "endMonth": "June 2025",
       "description": "An Australian company partnered with Eyepax to enhance their web based marketing campaigns management platform.",
       "role": [
         "As a full stack developer, I was responsible for developing the v2 of the application along with other feature developments.",
