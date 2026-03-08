@@ -19,13 +19,13 @@ export default function SocialLinks({ links }: { links: Link[] }) {
   }
 
   return (
-    <div className="flex gap-2">
+    <div className="flex gap-3">
       {links.map((link, index) => (
         <Button
           key={link.name}
           variant="ghost"
           size="icon"
-          className="glass-card hover:glass glow-on-hover transition-all duration-300 hover:scale-110"
+          className="glass-card hover:glass glow-on-hover transition-all duration-300 hover:scale-110 bg-gradient-to-br from-violet-200/50 to-pink-200/50 hover:from-violet-300/70 hover:to-pink-300/70 text-violet-700 hover:text-pink-700"
           style={{ animationDelay: `${index * 0.1}s` }}
           asChild
         >

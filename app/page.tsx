@@ -27,7 +27,7 @@ export default async function Home() {
   const data = await getData()
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-violet-50">
+    <main className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50/30 to-purple-100/40">
       <Hero data={data} />
       <About data={data} />
       <Experience data={data} />

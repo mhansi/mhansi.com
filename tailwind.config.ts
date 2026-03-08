@@ -78,11 +78,19 @@ const config = {
         },
         float: {
           "0%, 100%": { transform: "translateY(0px)" },
-          "50%": { transform: "translateY(-10px)" },
+          "50%": { transform: "translateY(-12px)" },
         },
         glow: {
-          "0%, 100%": { boxShadow: "0 0 20px rgba(139, 92, 246, 0.3)" },
-          "50%": { boxShadow: "0 0 30px rgba(139, 92, 246, 0.6)" },
+          "0%, 100%": { boxShadow: "0 0 15px rgba(216, 180, 254, 0.4)" },
+          "50%": { boxShadow: "0 0 25px rgba(236, 72, 153, 0.4)" },
+        },
+        "bounce-soft": {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-8px)" },
+        },
+        "subtle-pulse": {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.8" },
         },
       },
       animation: {
@@ -90,8 +98,10 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fade-in 0.6s ease-out",
         "slide-in": "slide-in 0.6s ease-out",
-        float: "float 3s ease-in-out infinite",
-        glow: "glow 2s ease-in-out infinite",
+        float: "float 3.5s ease-in-out infinite",
+        glow: "glow 2.5s ease-in-out infinite",
+        "bounce-soft": "bounce-soft 2s ease-in-out infinite",
+        "subtle-pulse": "subtle-pulse 2s ease-in-out infinite",
       },
     },
   },
