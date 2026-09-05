@@ -42,6 +42,34 @@ export interface SkillCategory {
   skills: string[]
 }
 
+export interface MakerProfile {
+  eyebrow: string
+  title: string
+  description: string
+  socials: { name: string; handle: string; url: string }[]
+}
+
+export interface ShopData {
+  name: string
+  tagline: string
+  description: string
+  currency: string
+  pricing: { single: number; bundleQuantity: number; bundlePrice: number; bulkNote: string }
+  features: { title: string; description: string }[]
+  images: string[]
+  colorways: { name: string; image: string }[]
+  customOrders: { title: string; description: string; cta: string }
+  bundleImage: string
+  ordering: {
+    methods: string[]
+    email: string
+    delivery: string
+    deliveryFee: string
+    paymentMethods: string[]
+    note: string
+  }
+}
+
 export interface PortfolioData {
   firstName: string
   lastName: string
@@ -56,6 +84,8 @@ export interface PortfolioData {
   projects: Project[]
   skills: SkillCategory[]
   interests: string[]
+  maker: MakerProfile
+  shop: ShopData
 }
 
 export async function getData(): Promise<PortfolioData> {

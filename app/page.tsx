@@ -6,6 +6,7 @@ import Projects from "@/components/projects"
 import Education from "@/components/education"
 import Skills from "@/components/skills"
 import Footer from "@/components/footer"
+import ShopTeaser from "@/components/shop-teaser"
 import { getData } from "@/lib/data"
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -30,6 +31,7 @@ export default async function Home() {
     <main className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50/30 to-purple-100/40">
       <Hero data={data} />
       <About data={data} />
+      <ShopTeaser data={data} />
       <Experience data={data} />
       <Projects data={data} />
       <Education data={data} />

@@ -4,7 +4,7 @@
   "fullName": "Sanduni Senanayake",
   "email": "srsmsone@gmail.com",
   "location": "Colombo, Sri Lanka",
-  "bio": "A techie with a passion for building scalable and efficient systems.",
+  "bio": "Software engineer by profession, dressmaker by passion—building thoughtful digital experiences and beautifully finished pieces by hand.",
   "keywords": [
     "software engineer",
     "software developer",
@@ -42,6 +42,16 @@
       "name": "Instagram",
       "url": "https://instagram.com/mhansi_senanayake",
       "icon": "instagram"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@i_am_mhansi",
+      "icon": "tiktok"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@i_am_mhansi",
+      "icon": "youtube"
     }
   ],
   "education": [
@@ -249,5 +259,80 @@
       "skills": ["AWS"]
     }
   ],
-  "interests": ["Coding", "Fashion Designing", "Traveling", "Music"]
+  "interests": ["Coding", "Dressmaking", "Fashion Designing", "Content Creation", "Traveling", "Music"],
+  "maker": {
+    "eyebrow": "Code by day. Create by heart.",
+    "title": "A software engineer who sews her own story.",
+    "description": "Dressmaking began as a creative hobby: designing custom outfits, recreating inspiring looks and sharing the process in short videos. Today, that same curiosity has grown into a small, detail-obsessed handmade label.",
+    "socials": [
+      {
+        "name": "TikTok",
+        "handle": "@i_am_mhansi",
+        "url": "https://www.tiktok.com/@i_am_mhansi"
+      },
+      {
+        "name": "YouTube",
+        "handle": "@i_am_mhansi",
+        "url": "https://www.youtube.com/@i_am_mhansi"
+      }
+    ]
+  },
+  "shop": {
+    "name": "The Zipper Scrunchie",
+    "tagline": "Your little secret, beautifully hidden.",
+    "description": "A full, handmade scrunchie with a discreet invisible-zip pocket for the tiny essentials you want close—cash, a key or jewellery.",
+    "currency": "LKR",
+    "pricing": {
+      "single": 500,
+      "bundleQuantity": 5,
+      "bundlePrice": 2000,
+      "bulkNote": "Special pricing is available for orders of more than five. Message for a quote."
+    },
+    "features": [
+      {
+        "title": "Invisible by design",
+        "description": "A colour-matched invisible zipper blends into the folds, keeping the pocket discreet without compromising the silhouette."
+      },
+      {
+        "title": "Finished inside and out",
+        "description": "Every raw edge is overlocked—even where you may never see it—for a cleaner, stronger and longer-lasting finish."
+      },
+      {
+        "title": "Made to match",
+        "description": "Fabric, thread and zipper are carefully colour-matched, then each piece is individually cut, sewn and checked by hand."
+      }
+    ],
+    "images": [
+      "/shop/black-zipper-scrunchie-v2.png",
+      "/shop/chocolate-zipper-scrunchie-v2.png",
+      "/shop/powder-blue-zipper-scrunchie-v3.png",
+      "/shop/wine-red-zipper-scrunchie-v3.png",
+      "/shop/olive-zipper-scrunchie-v2.png",
+      "/shop/dusty-purple-zipper-scrunchie-v2.png",
+      "/shop/printed-zipper-scrunchie-v2.png"
+    ],
+    "colorways": [
+      { "name": "Midnight Black", "image": "/shop/black-zipper-scrunchie-v2.png" },
+      { "name": "Chocolate Brown", "image": "/shop/chocolate-zipper-scrunchie-v2.png" },
+      { "name": "Powder Blue", "image": "/shop/powder-blue-zipper-scrunchie-v3.png" },
+      { "name": "Vintage Red", "image": "/shop/wine-red-zipper-scrunchie-v3.png" },
+      { "name": "Olive Green", "image": "/shop/olive-zipper-scrunchie-v2.png" },
+      { "name": "Dusty Purple", "image": "/shop/dusty-purple-zipper-scrunchie-v2.png" },
+      { "name": "Whimsical Print", "image": "/shop/printed-zipper-scrunchie-v2.png" }
+    ],
+    "customOrders": {
+      "title": "Have another shade in mind?",
+      "description": "Custom colours and fabric requests are welcome. Pricing may vary depending on your chosen fabric, and custom pieces require a few additional days to prepare.",
+      "cta": "Request a custom piece"
+    },
+    "bundleImage": "/shop/five-pack-box-v2.png",
+    "ordering": {
+      "methods": ["TikTok DM", "YouTube", "Email"],
+      "email": "srsmsone@gmail.com",
+      "delivery": "Islandwide delivery via Sri Lanka Post",
+      "deliveryFee": "Approximately LKR 300",
+      "paymentMethods": ["Online bank transfer", "Cash on delivery"],
+      "note": "Colours and availability may vary because every batch is handmade. Message to confirm your selection before ordering."
+    }
+  }
 }

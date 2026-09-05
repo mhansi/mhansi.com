@@ -1,5 +1,5 @@
 import type { Link } from "@/lib/data"
-import { Github, Linkedin, Facebook, Instagram } from "lucide-react"
+import { Github, Linkedin, Facebook, Instagram, Music2, Youtube } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function SocialLinks({ links }: { links: Link[] }) {
@@ -13,6 +13,10 @@ export default function SocialLinks({ links }: { links: Link[] }) {
         return <Facebook className="h-5 w-5" />
       case "instagram":
         return <Instagram className="h-5 w-5" />
+      case "tiktok":
+        return <Music2 className="h-5 w-5" />
+      case "youtube":
+        return <Youtube className="h-5 w-5" />
       default:
         return null
     }

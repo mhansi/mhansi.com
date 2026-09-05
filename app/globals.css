@@ -161,6 +161,17 @@
   }
 }
 
+.shop-page { overflow-x: clip; }
+.shop-hero-image { animation: shop-zoom 8s cubic-bezier(.2,.7,.2,1) both; }
+.shop-rise { animation: shop-rise .9s .15s cubic-bezier(.2,.7,.2,1) both; }
+.shop-marquee { animation: shop-marquee 18s linear infinite; }
+@keyframes shop-zoom { from { transform: scale(1.08); } to { transform: scale(1); } }
+@keyframes shop-rise { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes shop-marquee { to { transform: translateX(-45%); } }
+@media (prefers-reduced-motion: reduce) {
+  .shop-hero-image, .shop-rise, .shop-marquee { animation: none; }
+}
+
 /* Keyframe animations */
 @keyframes timeline-fade-in {
   from {
