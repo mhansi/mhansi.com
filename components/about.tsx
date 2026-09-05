@@ -29,9 +29,7 @@ export default function About({ data }: { data: PortfolioData }) {
             </div>
             <h3 className="text-2xl font-bold">Interests & Passions</h3>
           </div>
-          <p className="text-lg leading-relaxed text-muted-foreground font-medium mb-6">
-            Beyond coding, I'm inspired by diverse interests that fuel my creativity.
-          </p>
+          <p className="text-lg leading-relaxed text-muted-foreground font-medium mb-6">{data.maker.description}</p>
           <div className="flex flex-wrap gap-3">
             {data.interests.map((interest, index) => (
               <Badge
